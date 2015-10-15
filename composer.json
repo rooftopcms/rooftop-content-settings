@@ -1,0 +1,20 @@
+{
+    "name": "rooftopcms/rooftop-content-settings",
+    "description": "Change some site defaults and the example content when a sub-site is created",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Rooftop CMS",
+            "email": "hello@rooftopcms.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://wpackagist.org"
+        }
+    ],
+    "type": "wordpress-muplugin",
+    "require": {
+    }
+}
