@@ -23,7 +23,7 @@
  * Domain Path:       /languages
  */
 
-function add_default_content($blog_id, $user_id, $domain, $path, $site_id, $meta) {
+function add_default_content($blog_id, $user_id, $domain, $path, $meta) {
     $example_post_content = <<<EOF
 This is just a regular post. You can access it via the API once you've set up your <a href='/wp-admin/admin.php?page=rooftop-overview'>API user</a>.
 EOF;
