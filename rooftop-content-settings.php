@@ -54,7 +54,4 @@ EOF;
 }
 
 add_filter('wpmu_new_blog', 'add_default_content', 10, 6);
-
 ?>
-
-
