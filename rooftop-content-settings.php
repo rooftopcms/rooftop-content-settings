@@ -55,3 +55,11 @@ EOF;
 
 add_filter('wpmu_new_blog', 'add_default_content', 10, 6);
 ?>
+
+<?php
+//fixme: move this into RT network settings as an option at some point
+if(!defined('WP_DEFAULT_THEME')) {
+    define('WP_DEFAULT_THEME', 'rooftop-theme');
+}
+?>
+
